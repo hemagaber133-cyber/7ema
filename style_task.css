@@ -1,0 +1,235 @@
+body{
+    background-image: url(../imgs/1776107931725.png);
+    padding:0%;
+    margin: 0%;
+}
+header{
+    background-color: aqua;
+    width: 100%;
+    padding: 3px 3px 50px;
+    margin: 0px;
+    display: inline-block;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 2px 3px 10px;
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 5px 8px black;
+}
+nav{
+    display: block;
+ text-align: center;
+}
+li{ 
+    
+    display: inline-block;
+    margin: 5px;
+    padding: 11px 25px;
+    text-align: center;
+    
+}
+li a:hover{
+    background-color:blue;
+}
+li a{
+     background-color: rgb(70, 70, 253);
+     border-radius: 50px;
+     color:white;
+     text-decoration: none;
+     padding:11px 25px;
+     width: 75%;
+     display: block;
+     box-shadow: 3px 5px 8px black;
+     font-size: 18px;
+}
+.home{
+    background-color:blue;
+    display: inline-block;
+    width: 60%;
+    margin-top: 20px;
+    margin-left:20% ;
+    margin-right: 20%;
+    padding: 5px 5px 5% 5px;
+    text-align: center;
+    border-radius: 50px ;
+    color:white; 
+    box-shadow: 3px 5px 8px black;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+footer{
+    background-color: gray;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    margin-left:20% ;
+    margin-right: 20%;
+    border-radius: 50px ;
+    box-shadow: 3px 5px 8px black;
+}
+.hc{
+    background-color:blue;
+    display: inline-block;
+    width: 60%;
+    margin-top: 20px;
+    margin-left:20% ;
+    margin-right: 20%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px ;
+    color:white; 
+    box-shadow: 3px 5px 8px black;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+table{  
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5px;
+    border-collapse: collapse;
+    font-size: 18px;
+    
+}
+tr{
+    border-bottom: 2px solid #6e6e6e;    
+}
+tbody tr:hover{
+    background-color: #6e6e6e;
+}
+thead{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    text-align: left;
+}
+tbody{
+    background-color: azure;
+    
+    height: 50px;
+
+
+}
+td,th{
+    padding: 6px;
+}
+.tlr{
+    border-top-left-radius: 25px;
+}
+.trr{
+    border-top-right-radius: 25px;
+}
+.ha{
+    background-color:blue;
+    display: inline-block;
+    width: 60%;
+    margin-top: 20px;
+    margin-left:20% ;
+    margin-right: 20%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px ;
+    color:white; 
+    box-shadow: 3px 5px 8px black;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+form{
+    background-color: blue;
+    color:black;
+    width: 60%;
+    margin-top: 20px;
+    margin-left:20% ;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px ;
+    box-shadow: 3px 5px 8px black;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    
+}
+label,.botton{
+    display: inline-block;
+    padding:6px;
+    margin-top: 10px;
+    border-radius: 50px ;
+    background-color: aqua;
+    box-shadow: 3px 5px 8px black;
+    text-shadow: 1px 2px 5px black;
+    font-size: 18px;
+}
+label:hover,.botton:hover{
+    background-color: rgb(70, 70, 253);
+    color:white;
+}
+label{
+    margin-left:5% ;
+    margin-right: 5%;
+    width: 90%;
+}
+.botton{
+    width: 60%;
+    margin-left:22% ;
+    margin-right: 18%;
+}
+input,textarea{
+    display: inline-block;
+    width: 90%;
+    padding:6px;
+    margin-top: 10px;
+    margin-left:5% ;
+    margin-right: 5%;
+    border-radius: 50px ;
+    box-shadow: 3px 5px 8px black;
+    font-size: 18px;
+    border:none;
+}
+.hcu{
+    background-color:blue;
+    display: inline-block;
+    width: 60%;
+    margin-top: 20px;
+    margin-left:20% ;
+    margin-right: 20%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px ;
+    color:white; 
+    box-shadow: 3px 5px 8px black;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+.facebook{
+    background-color: #0866ff;
+}
+.Whatsapp{
+    background-color:#25D366;
+}
+.facebook,.Whatsapp{
+    display: inline-block;
+    padding:6px;
+    margin-top: 10px;
+    border-radius: 50px ;
+    box-shadow: 3px 5px 8px black;
+    text-shadow: 1px 2px 5px black;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+     width: 60%;
+    margin-left:20% ;
+    margin-right: 20%;
+}
+.facebook:hover{
+    background-color: blue;
+}
+.Whatsapp:hover{
+    background-color: green;
+}
