@@ -1,6 +1,12 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-image: url(1776107931725.png);
     background-size: cover;
+    background-attachment:fixed;
     padding:0%;
     margin: 0%;
     align-items: center;
@@ -26,7 +32,7 @@ body{
 header{
     background-color: aqua;
     width: 100%;
-    padding: 3px 3px 50px;
+    padding: 2em 3px 50px;
     margin: 0px;
     display: inline-block;
     border-bottom-left-radius: 50%;
@@ -36,20 +42,24 @@ header{
 h1{
     text-align: center;
     text-shadow: 3px 5px 8px black;
+    padding-bottom: 20px;
 }
-nav{
-    display: block;
- text-align: center;
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 li{ 
     
-    display: inline-block;
+   
     margin: 5px;
     padding: 11px 25px;
     text-align: center;
-    
+    list-style: none;
 }
-li a:hover{
+li a:hover,.active{
     background-color:blue;
 }
 li a{
@@ -59,7 +69,7 @@ li a{
      text-decoration: none;
      padding:11px 25px;
      width: 75%;
-     display: block;
+     transition: 0.5s;
      box-shadow: 3px 5px 8px black;
      font-size: 18px;
 }
@@ -70,7 +80,8 @@ li a{
     margin-top: 20px;
     margin-left:20% ;
     margin-right: 20%;
-    padding: 5px 5px 5% 5px;
+    
+    padding: 50px 50px ;
     text-align: center;
     border-radius: 50px ;
     color:white; 
@@ -82,7 +93,7 @@ footer{
     background-color: gray;
     display: block;
     text-align: center;
-    padding: 5px;
+    padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 60%;
